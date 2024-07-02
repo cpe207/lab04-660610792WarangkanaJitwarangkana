@@ -2,14 +2,15 @@ function typeChecker(a, b) {
     var x = (typeof a);
     if ((typeof a) === (typeof b)) {
         if ((typeof a) === 'string') {
-            console.log("I LOVE YOU");
+            return "I LOVE YOU";
         }
-        else {
-            console.log(a + b);
+        else if ((typeof a) === 'number') {
+            return a + b;
         }
+        else { }
     }
     else {
-        console.log("NOT MATCHED");
+        return "NOT MATCHED";
     }
 }
 //Test cases

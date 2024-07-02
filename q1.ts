@@ -4,12 +4,12 @@ function typeChecker(a, b) {
 
   if ((typeof a)===(typeof b)){
     if((typeof a)==='string') {
-      console.log("I LOVE YOU");
-    }else{
-      console.log(a+b);
-    }
+      return "I LOVE YOU";
+    }else if((typeof a)==='number') {
+      return a+b;
+    }else{}
   }else{
-    console.log("NOT MATCHED")
+    return "NOT MATCHED";
   }
 
 }

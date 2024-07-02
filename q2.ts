@@ -5,7 +5,7 @@ function arrayStringify(a) {
   num += a[n];
   n++;
   }
-  console.log(num) 
+  return num; 
 
 }
 
