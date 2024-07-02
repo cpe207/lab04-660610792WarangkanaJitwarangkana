@@ -1,12 +1,11 @@
 function arrayStringify(a) {
-  let n=0;
-  let num = '';
+  var n=0;
+  var num = "";
   for(let i = 0; i<= a[n]; i++){
   num += a[n];
   n++;
   }
   return num; 
-
 }
 
 const c1 = [1, 2, 3];
