@@ -1,5 +1,18 @@
 function primeNumber(a) {
-  /* Your code here */
+
+  if(a<=1){
+    return "NO";
+  }else if(a==2){
+    return "YES";
+  }else{
+    for(let n=2; n<a; n++){
+      if(a%n===0){
+        return "NO";
+      }
+    }
+    return "YES";
+  }
+
 }
 
 const d1 = 10;
@@ -11,3 +24,5 @@ console.log(primeNumber(d2));
 console.log(primeNumber(d3));
 
 module.exports = primeNumber;
+
+/* Warangkana Jitwarangkana 660610792 */

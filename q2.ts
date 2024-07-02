@@ -1,5 +1,12 @@
 function arrayStringify(a) {
-  /* Your code here */
+  let n=0;
+  let num = '';
+  for(let i = 0; i<= a[n]; i++){
+  num += a[n];
+  n++;
+  }
+  console.log(num) 
+
 }
 
 const c1 = [1, 2, 3];
@@ -11,3 +18,5 @@ console.log(arrayStringify(c2));
 console.log(arrayStringify(c3));
 
 module.exports = arrayStringify;
+
+/* Warangkana Jitwarangkana 660610792 */

@@ -1,5 +1,17 @@
 function typeChecker(a, b) {
-  /* Your code here */
+
+  let x = (typeof a);
+
+  if ((typeof a)===(typeof b)){
+    if((typeof a)==='string') {
+      console.log("I LOVE YOU");
+    }else{
+      console.log(a+b);
+    }
+  }else{
+    console.log("NOT MATCHED")
+  }
+
 }
 
 //Test cases
@@ -15,3 +27,5 @@ console.log(typeChecker(a2, b2));
 console.log(typeChecker(a3, b3));
 
 module.exports = typeChecker;
+
+/* Warangkana Jitwarangkana 660610792 */
