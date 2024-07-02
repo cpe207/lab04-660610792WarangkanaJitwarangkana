@@ -1,6 +1,6 @@
 function arrayStringify(a) {
   var n=0;
-  var num = "";
+  var num = '';
   for(let i = 0; i<= a[n]; i++){
   num += a[n];
   n++;
